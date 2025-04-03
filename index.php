@@ -131,8 +131,8 @@
         require_once 'vendor/autoload.php';
 
         // Replace with your own Google OAuth 2.0 client ID, client secret, and redirect URI
-        $clientID = '1016916969204-9qlhvfk6iclnsmaott97532ssg07nq0h.apps.googleusercontent.com';
-        $clientSecret = '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';
+        $clientID = '';
+        $clientSecret = '';
         $redirectURI = 'https://holophytic-frequenc.000webhostapp.com/dashboard.html';
 
         $client = new Google_Client();
